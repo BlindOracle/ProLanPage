@@ -1,0 +1,135 @@
+html {
+    background-color: aqua;
+}
+
+body {
+    background-color: burlywood;
+}
+
+#nav-bar {
+    
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    
+}
+
+#zindex {
+    position: absolute;
+    float: left;
+    display: inline-block;
+}
+
+
+/* what is needed to have my logo img on the corner? */
+/*
+Well I added an inline float to the li element where I housed the logo img
+Next challenge will be once I put an img which might be bigger than nav bar height
+*/
+
+
+/* first to clean up the list decoration*/
+ul { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* important to have that background bar across the page*/
+    background-color: cadetblue;
+    
+    
+}
+
+/*nav ul {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+/* li {
+     display: inline;   one way  
+}
+*/
+
+/*another is to float: left or right;
+    and order the a into blocks with padding*/
+
+li {
+    float: right;
+}
+
+.llin {
+    border-left: 1px solid black;
+}
+
+
+li a:hover {
+    background-color: black;
+    color: white;
+}
+
+li a {
+    display: block;
+    color: black;
+    padding: 18px 16px;
+    text-decoration: none;
+}
+
+#logop {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+h1 {
+    margin: 0;
+    padding: 20px 0;    
+    /*color: #00539F;
+    text-shadow: 3px 3px 1px black;*/
+}
+
+.btn {
+    background-color: khaki;
+    font: large;
+    width: 120px;
+    length: 50px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+.topky {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /* flex-flow: row nowrap;*/
+    justify-content: space-around;
+    
+}
+.ticky {
+    border: 2px solid black ;
+    text-align: center;
+    
+
+}
+
+.txtali {
+    text-align: center;
+}
+
+.itbg {
+    background-color: greenyellow;
+    margin: auto;
+    line-height: 36px;
+}
+
+.innit {
+    padding: 8px ;
+}
+
+p.litle {
+    font-weight: bolder;
+    font-size: 20px;
+}
